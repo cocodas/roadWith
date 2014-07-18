@@ -34,4 +34,9 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value = "signin", method = RequestMethod.GET)
+	public String signin(Model model) {
+		return "signin";
+	}
+	
 }
